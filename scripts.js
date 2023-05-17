@@ -35,3 +35,9 @@ function keyPressed() {
   function sortLines() {
     values.sort(function(a, b){return a-b});
   }
+  function generateLines() {
+    for (var i = 0; i < 10; i++) {
+      var val = random(height);
+      values.push(val);
+    }
+  }
