@@ -5,6 +5,10 @@ function setup() {
     input.size(50);
     button = createButton('Sort');
   button.position(80, 20);
+  button.mousePressed(sortLines);
+  generateButton = createButton('Generate Lines');
+  generateButton.position(150, 20);
+  generateButton.mousePressed(generateLines);
 }
 
 function draw() {
