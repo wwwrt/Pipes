@@ -1,3 +1,5 @@
+var values =[];
+
 function setup() {
     createCanvas(800, 600);
     input = createInput();
