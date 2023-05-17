@@ -24,3 +24,10 @@ function draw() {
   }
 
 }
+
+function keyPressed() {
+    if (keyCode === ENTER) {
+      var val = int(input.value());
+      values.push(val);
+    }
+  }
