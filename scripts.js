@@ -31,3 +31,7 @@ function keyPressed() {
       values.push(val);
     }
   }
+
+  function sortLines() {
+    values.sort(function(a, b){return a-b});
+  }
