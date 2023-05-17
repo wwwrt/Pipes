@@ -3,6 +3,8 @@ function setup() {
     input = createInput();
     input.position(20, 20);
     input.size(50);
+    button = createButton('Sort');
+  button.position(80, 20);
 }
 
 function draw() {
